@@ -40,6 +40,6 @@ public class ConversorService {
 
         Conversor conversor = new Conversor(conversorExchangeRate);
 
-        return conversor.getValor();
+        return conversor.getResultado();
     }
 }

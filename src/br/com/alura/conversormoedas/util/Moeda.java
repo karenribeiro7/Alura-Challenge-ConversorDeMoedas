@@ -3,10 +3,11 @@ package br.com.alura.conversormoedas.util;
 public enum Moeda {
     DOLAR("USD"),
     PESO_ARGENTINO("ARS"),
-    REAL_BRASELEIRO("BRL"),
+    REAL_BRASILEIRO("BRL"),
     PESO_COLOMBIANO("COP"),
     BOLIVIANO("BOB"),
-    PESO_CHILENO("CLP");
+    PESO_CHILENO("CLP"),
+    EURO("EUR");
 
     private final String codigo;
 
